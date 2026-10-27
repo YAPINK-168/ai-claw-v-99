@@ -1,0 +1,9 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'claw_machine'
+compiling mainfile.c...
+linking...
+Program Size: Code=79910 RO-data=366 RW-data=3268 ZI-data=3220  
+FromELF: creating hex file...
+After Build - User command #2: fromelf.exe --bin -o "..\output\claw_machine.bin" "..\output\claw_machine.axf"
+"..\output\claw_machine.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:02

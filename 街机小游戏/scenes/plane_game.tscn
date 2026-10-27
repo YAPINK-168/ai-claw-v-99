@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bplaneclaw01"]
+
+[ext_resource type="Script" path="res://街机小游戏/scripts/plane_game.gd" id="1"]
+
+[node name="PlaneGame" type="Node2D"]
+script = ExtResource("1")

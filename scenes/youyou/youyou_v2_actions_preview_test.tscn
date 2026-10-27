@@ -1,0 +1,123 @@
+[gd_scene format=3 uid="uid://818dx5uijkci"]
+
+[ext_resource type="Script" path="res://Scripts/youyou_v2_actions_preview_test.gd" id="1_v2"]
+[ext_resource type="Script" uid="uid://d0spk7us8tvd7" path="res://Scripts/youyou_observe_camera.gd" id="2_observe"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributes_v2"]
+exposure_multiplier = 0.72
+
+[sub_resource type="Environment" id="Environment_v2"]
+background_mode = 1
+background_color = Color(0.4, 0.42, 0.45, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.62, 0.63, 0.65, 1)
+ambient_light_energy = 0.32
+
+[node name="YouyouV2ActionsPreviewTest" type="Node3D" unique_id=1417568922]
+script = ExtResource("1_v2")
+
+[node name="ObservePivot" type="Node3D" parent="." unique_id=2095584663]
+script = ExtResource("2_observe")
+
+[node name="Camera3D" type="Camera3D" parent="ObservePivot" unique_id=551246436]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 1.35, 2.35)
+attributes = SubResource("CameraAttributes_v2")
+current = true
+fov = 42.0
+
+[node name="KeyLight" type="DirectionalLight3D" parent="." unique_id=1625641912]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 1.6, 1.2)
+light_energy = 0.78
+shadow_enabled = true
+
+[node name="FillLight" type="DirectionalLight3D" parent="." unique_id=679757151]
+transform = Transform3D(0.939693, 0.241845, -0.241845, 0, 0.707107, 0.707107, 0.34202, -0.664463, 0.664463, -1, 1.2, 0.4)
+light_color = Color(0.78, 0.82, 0.9, 1)
+light_energy = 0.18
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1251770121]
+environment = SubResource("Environment_v2")
+
+[node name="UiLayer" type="CanvasLayer" parent="." unique_id=1854592810]
+
+[node name="Panel" type="PanelContainer" parent="UiLayer" unique_id=694689134]
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 560.0
+offset_bottom = 820.0
+
+[node name="Margin" type="MarginContainer" parent="UiLayer/Panel" unique_id=291639690]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 10
+
+[node name="VBox" type="VBoxContainer" parent="UiLayer/Panel/Margin" unique_id=1658636631]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TitleLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=1835269965]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "柚柚新动作预览（第二套美术 · 动作+配音调参）"
+
+[node name="FilterRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1512758378]
+layout_mode = 2
+
+[node name="FilterCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/FilterRow" unique_id=1588110503]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+text = "分类"
+
+[node name="FilterOption" type="OptionButton" parent="UiLayer/Panel/Margin/VBox/FilterRow" unique_id=402874348]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ActionRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=353246756]
+layout_mode = 2
+
+[node name="ActionCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/ActionRow" unique_id=1407921629]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+text = "动作"
+
+[node name="ActionOption" type="OptionButton" parent="UiLayer/Panel/Margin/VBox/ActionRow" unique_id=794481148]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ControlRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=2047640526]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PlayButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=1147503175]
+layout_mode = 2
+text = "播放 (Space)"
+
+[node name="StopButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=1504323123]
+layout_mode = 2
+text = "停止 (Esc)"
+
+[node name="LoopCheck" type="CheckBox" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=1937853429]
+layout_mode = 2
+text = "循环"
+
+[node name="StatusLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=2022483822]
+layout_mode = 2
+text = "正在加载…"
+autowrap_mode = 3
+
+[node name="OriginLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=1374134337]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85, 0.88, 0.92, 1)
+autowrap_mode = 3
+
+[node name="HelpLabel" type="Label" parent="UiLayer" unique_id=1049211559]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -40.0
+offset_right = 900.0
+offset_bottom = -12.0
+text = "中键拖动旋转 · 滚轮缩放 · Shift+中键平移 · R 复位镜头"

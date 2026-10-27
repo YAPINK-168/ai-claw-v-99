@@ -1,0 +1,38 @@
+{
+	"schema": "youyou_claw_show_map_v1",
+	"description": "娃娃机业务语义 → 柚柚事件 action_id；binding_status 区分已确认与待人工确认",
+	"mappings": [
+		{
+			"business_action": "opening",
+			"business_speech": "coin_feedback",
+			"event_action_id": "youyou_coin01",
+			"binding_status": "confirmed",
+			"wait_policy": "package",
+			"notes": "开场由 GrabShowFlow 选片：首局 youyou_coin02+投币1-想好了；承接局 youyou_coin01+第二次抓娃欢迎。此条只保留承接动作名"
+		},
+		{
+			"business_action": "result_fail",
+			"business_speech": "grab_fail",
+			"event_action_id": "youyou_fail01",
+			"binding_status": "confirmed",
+			"wait_policy": "package",
+			"notes": "grab_failed → youyou_fail01；演完才进入失败后续引导"
+		},
+		{
+			"business_action": "result_success",
+			"business_speech": "grab_success",
+			"event_action_id": "youyou_victory01",
+			"binding_status": "confirmed",
+			"wait_policy": "package",
+			"notes": "grab_succeeded → youyou_victory01；演完才进入结果引导"
+		},
+		{
+			"business_action": "",
+			"business_speech": "",
+			"event_action_id": "youyou_claw crane01_01",
+			"binding_status": "playback_only",
+			"wait_policy": "package",
+			"notes": "已接入正式场景播放能力；业务语义待人工确认，不得绑定 grab_pressed"
+		}
+	]
+}

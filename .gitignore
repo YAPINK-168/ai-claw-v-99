@@ -1,0 +1,11 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# 语音 API 凭证（本地配置）
+config/youyou_voice_secrets.cfg
+config/youyou_voice_secrets.cfg.bak*
+config/*.local.cfg
+
+# 小游戏服务本地密钥
+街机小游戏/server/.env

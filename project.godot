@@ -1,0 +1,65 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ai-claw-v-6"
+run/main_scene="res://scenes/newmotion/claw_sprite_flow_test.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="res://icon.svg"
+config/voice/trailing_silence_ms=800
+config/voice/post_tts_listen_cooldown_ms=1200
+config/voice/tts_ws_chunk_pad_ms=72
+config/voice/tts_comma_break_min_chars=24
+config/voice/stream_tts=true
+
+[audio]
+
+driver/enable_input=true
+
+[autoload]
+
+ArcadeProfile="*res://街机小游戏/scripts/arcade_profile.gd"
+GameState="*res://街机小游戏/scripts/game_state.gd"
+BoardLink="*res://街机小游戏/scripts/board_link.gd"
+ArcadeAudio="*res://街机小游戏/scripts/arcade_audio.gd"
+
+[board]
+
+serial_port="/dev/ttyS4"
+serial_mock=false
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="ai-claw-v-6"
+
+[editor]
+
+file_scan/exclude_paths=PackedStringArray("res://街机小游戏/.git", "res://街机小游戏/.godot", "res://NewMotion/动作")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

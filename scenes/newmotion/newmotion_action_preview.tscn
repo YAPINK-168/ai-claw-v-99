@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnewmotionprev1"]
+
+[ext_resource type="Script" path="res://Scripts/newmotion_action_preview.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://NewMotion/test/room_background.jpg" id="2_bg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bar"]
+content_margin_left = 16.0
+content_margin_top = 10.0
+content_margin_right = 14.0
+content_margin_bottom = 10.0
+bg_color = Color(1, 1, 1, 0.94)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+shadow_color = Color(0.4, 0.22, 0.5, 0.3)
+shadow_size = 8
+
+[node name="NewMotionActionPreview" type="Node"]
+script = ExtResource("1_script")
+
+[node name="BackgroundLayer" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="Background" type="TextureRect" parent="BackgroundLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="CharacterLayer" type="CanvasLayer" parent="."]
+layer = 1
+
+[node name="Character" type="AnimatedSprite2D" parent="CharacterLayer"]
+texture_filter = 2
+
+[node name="UiLayer" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="ActionBar" type="PanelContainer" parent="UiLayer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -390.0
+offset_top = 22.0
+offset_right = -24.0
+offset_bottom = 78.0
+grow_horizontal = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_bar")
+
+[node name="Margin" type="MarginContainer" parent="UiLayer/ActionBar"]
+layout_mode = 2
+
+[node name="Row" type="HBoxContainer" parent="UiLayer/ActionBar/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Caption" type="Label" parent="UiLayer/ActionBar/Margin/Row"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "动作"
+vertical_alignment = 1
+
+[node name="ActionOption" type="OptionButton" parent="UiLayer/ActionBar/Margin/Row"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+size_flags_horizontal = 3

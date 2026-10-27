@@ -1,0 +1,162 @@
+[gd_scene format=3 uid="uid://sausa0bv2fak"]
+
+[ext_resource type="Script" uid="uid://c8phg4l3xlsjm" path="res://Scripts/newmotion/claw_sprite_flow_test.gd" id="1_script"]
+[ext_resource type="Script" uid="uid://c28gxjiisrkdr" path="res://Scripts/newmotion/sprite_actor.gd" id="2_actor"]
+[ext_resource type="Texture2D" uid="uid://okrin2kb2ojy" path="res://NewMotion/test/room_background.jpg" id="3_bg"]
+[ext_resource type="PackedScene" uid="uid://cshgesoukujul" path="res://scenes/ui/youyou_arcade_hud.tscn" id="4_hud"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hint"]
+content_margin_left = 20.0
+content_margin_top = 14.0
+content_margin_right = 20.0
+content_margin_bottom = 14.0
+bg_color = Color(0.1, 0.06, 0.16, 0.82)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+shadow_color = Color(0, 0, 0, 0.35)
+shadow_size = 8
+
+[node name="ClawSpriteFlowTest" type="Node" unique_id=1226086182]
+script = ExtResource("1_script")
+
+[node name="LeftHud" parent="." unique_id=1955127240 instance=ExtResource("4_hud")]
+
+[node name="TopBanner" parent="LeftHud/ArcadeHud" index="0"]
+offset_left = -3.0
+offset_top = 533.0
+offset_right = -3.0
+offset_bottom = 683.0
+scale = Vector2(1.0022937, 1.0074285)
+
+[node name="GoalProgress" parent="LeftHud/ArcadeHud/TopBanner" index="0"]
+offset_left = -30.800049
+offset_top = -11.0
+offset_right = -30.800049
+offset_bottom = -11.0
+scale = Vector2(1.0519981, 1.1219971)
+
+[node name="CoinValue" parent="LeftHud/ArcadeHud/TopBanner" index="1"]
+offset_left = -175.59985
+offset_top = -16.0
+offset_right = -175.59985
+offset_bottom = -16.0
+
+[node name="BottomBar" parent="LeftHud/ArcadeHud" index="1"]
+offset_left = -189.00002
+offset_top = -736.0
+offset_right = -213.0
+offset_bottom = -546.0
+scale = Vector2(1.1071056, 1.1120433)
+
+[node name="DialogueBubble" parent="LeftHud/ArcadeHud" index="2"]
+offset_left = -926.99994
+offset_top = -1234.0
+offset_right = -306.99988
+offset_bottom = -1014.0
+scale = Vector2(0.9038148, 0.89353025)
+
+[node name="Dialogue" parent="LeftHud/ArcadeHud/DialogueBubble" index="0"]
+offset_left = 143.20468
+offset_top = 41.04927
+offset_right = -16.79535
+offset_bottom = -46.95073
+scale = Vector2(0.72328454, 1.2670214)
+
+[node name="BackgroundLayer" type="CanvasLayer" parent="." unique_id=433913399]
+layer = 0
+
+[node name="Background" type="TextureRect" parent="BackgroundLayer" unique_id=1671142090]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -1.0
+offset_right = 3.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="DoudouLayer" type="CanvasLayer" parent="." unique_id=997917666]
+
+[node name="Doudou" type="AnimatedSprite2D" parent="DoudouLayer" unique_id=456698379]
+visible = false
+texture_filter = 2
+script = ExtResource("2_actor")
+pin_idle_on_ready = false
+fit_frame_to_view = true
+frame_fit_scale = 0.48
+frame_depth_offset = Vector2(0, 24)
+
+[node name="CharacterLayer" type="CanvasLayer" parent="." unique_id=524950603]
+layer = 2
+
+[node name="Character" type="AnimatedSprite2D" parent="CharacterLayer" unique_id=1117253113]
+texture_filter = 2
+script = ExtResource("2_actor")
+pin_idle_on_ready = false
+
+[node name="UiLayer" type="CanvasLayer" parent="." unique_id=472113547]
+layer = 10
+
+[node name="FlowHint" type="PanelContainer" parent="UiLayer" unique_id=1332767903]
+visible = false
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -520.0
+offset_top = -328.0
+offset_right = -24.0
+offset_bottom = -160.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hint")
+
+[node name="Margin" type="MarginContainer" parent="UiLayer/FlowHint" unique_id=853951787]
+layout_mode = 2
+
+[node name="HintText" type="Label" parent="UiLayer/FlowHint/Margin" unique_id=1858621341]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.96, 0.86, 1)
+theme_override_font_sizes/font_size = 26
+text = "待机招揽"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="InvitePrompt" type="PanelContainer" parent="UiLayer" unique_id=1255511148]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -460.0
+offset_top = -280.0
+offset_right = 460.0
+offset_bottom = -96.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_hint")
+
+[node name="PromptText" type="Label" parent="UiLayer/InvitePrompt" unique_id=1325657212]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78, 0.97, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.9)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 34
+text = "要不要去玩小游戏？
+对着麦克风说：想玩 / 不玩
+按 1 同意，按 2 拒绝"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[editable path="LeftHud"]

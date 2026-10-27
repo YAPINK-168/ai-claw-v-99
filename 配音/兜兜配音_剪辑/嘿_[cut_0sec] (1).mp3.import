@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c255ke75cplv8"
+path="res://.godot/imported/嘿_[cut_0sec] (1).mp3-97a2ec55d265415f82f4e5e15eed3af0.mp3str"
+
+[deps]
+
+source_file="res://配音/兜兜配音_剪辑/嘿_[cut_0sec] (1).mp3"
+dest_files=["res://.godot/imported/嘿_[cut_0sec] (1).mp3-97a2ec55d265415f82f4e5e15eed3af0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

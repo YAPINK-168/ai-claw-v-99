@@ -1,0 +1,384 @@
+{
+	"actions": {
+		"上前嘲讽": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.29,
+					"eye_weight": 0.79,
+					"eyes": "Eyes_坏笑",
+					"id": "2456925_72498",
+					"mouth": "Mouth_坏笑",
+					"mouth_weight": 0.32,
+					"name": "坏笑",
+					"start_sec": 1.02
+				}
+			]
+		},
+		"入场": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.4,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "50065_37444",
+					"mouth": "Mouth_开心",
+					"mouth_weight": 0.99,
+					"name": "眯眼笑",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.58,
+					"eye_weight": 0.64,
+					"eyes": "Eyes_惊讶",
+					"id": "2301589_29489",
+					"mouth": "Mouth_惊讶",
+					"mouth_weight": 0.71,
+					"name": "发现",
+					"start_sec": 1.05
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.63,
+					"eye_weight": 0.6,
+					"eyes": "Eyes_坏笑",
+					"id": "2349064_97987",
+					"mouth": "Mouth_坏笑",
+					"mouth_weight": 0.87,
+					"name": "坏笑",
+					"start_sec": 2.23
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.82,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "2378859_58745",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.84,
+					"name": "眯眼笑",
+					"start_sec": 3.28
+				}
+			]
+		},
+		"叉腰待机": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.1,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "1065_46647",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"大鹏展翅": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.1,
+					"eye_weight": 0.27,
+					"eyes": "Eyes_惊讶",
+					"id": "1174621_29837",
+					"mouth": "Mouth_惊讶",
+					"mouth_weight": 0.93,
+					"name": "捣乱",
+					"start_sec": 0.68
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.5,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "1211876_00498",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.79,
+					"name": "眯眼笑",
+					"start_sec": 1.75
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.01,
+					"eye_weight": 0.55,
+					"eyes": "Eyes_惊讶",
+					"id": "1244889_70734",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 1.0,
+					"name": "捣乱",
+					"start_sec": 3.15
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.93,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_闭眼笑",
+					"id": "1274004_99107",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.34,
+					"name": "眯眼笑",
+					"start_sec": 4.66
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.74,
+					"eye_weight": 0.24,
+					"eyes": "Eyes_坏笑",
+					"id": "1446402_79430",
+					"mouth": "Mouth_坏笑",
+					"mouth_weight": 0.7,
+					"name": "微微坏笑",
+					"start_sec": 5.58
+				}
+			]
+		},
+		"战术指导": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.85,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_惊讶",
+					"id": "90368_16026",
+					"mouth": "Mouth_愤怒",
+					"mouth_weight": 0.47,
+					"name": "理直气壮",
+					"start_sec": 0.72
+				}
+			]
+		},
+		"抱肚笑": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.32,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "227215_27642",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.91,
+					"name": "大笑",
+					"start_sec": 0.25
+				}
+			]
+		},
+		"甩手": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "141215_49229",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"跳舞嘲讽": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.33,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_眨眼笑",
+					"id": "1661370_62506",
+					"mouth": "Mouth_开心",
+					"mouth_weight": 0.95,
+					"name": "眨眼笑",
+					"start_sec": 0.26
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.8,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "1710718_47582",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.98
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.37,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "1852917_94022",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.32,
+					"name": "眯眼笑",
+					"start_sec": 1.45
+				}
+			]
+		},
+		"蹦蹦跳跳": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.03,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_闭眼笑",
+					"id": "140666_35300",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 0.52,
+					"name": "眯眼笑",
+					"start_sec": 0.74
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.93,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_开心",
+					"id": "177121_06163",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 1.0,
+					"name": "大笑",
+					"start_sec": 1.68
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.59,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "222741_54167",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 0.52,
+					"name": "眯眼笑",
+					"start_sec": 2.58
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.52,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_开心",
+					"id": "282576_97406",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 1.0,
+					"name": "大笑",
+					"start_sec": 3.24
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.77,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_闭眼笑",
+					"id": "413440_20435",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 0.52,
+					"name": "眯眼笑",
+					"start_sec": 4.17
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.52,
+					"eye_weight": 0.31,
+					"eyes": "Eyes_闭眼笑",
+					"id": "505469_60110",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 0.17,
+					"name": "睁眼",
+					"start_sec": 4.42
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.55,
+					"eye_weight": 0.85,
+					"eyes": "Eyes_闭眼笑",
+					"id": "556500_84185",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.86,
+					"name": "睁眼笑",
+					"start_sec": 5.17
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.56,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_闭眼笑",
+					"id": "608765_85741",
+					"mouth": "Mouth_闭眼笑",
+					"mouth_weight": 0.74,
+					"name": "眯眼笑",
+					"start_sec": 6.2
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.54,
+					"eye_weight": 0.58,
+					"eyes": "Eyes_开心",
+					"id": "720500_01488",
+					"mouth": "Mouth_眨眼笑",
+					"mouth_weight": 0.82,
+					"name": "睁眼笑",
+					"start_sec": 7.21
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 8.86,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "755673_30941",
+					"mouth": "",
+					"mouth_weight": 0.99,
+					"name": "新表情",
+					"start_sec": 7.86
+				}
+			]
+		},
+		"鬼脸": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "56181_52496",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		}
+	},
+	"code_only_action_ids": [],
+	"default_slot_blend_sec": 0.35,
+	"description": "Doudou squint mix baked timelines.",
+	"schema": "doudou_action_split_expression_timelines_v1"
+}

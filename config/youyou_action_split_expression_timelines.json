@@ -1,0 +1,1315 @@
+{
+	"actions": {
+		"Basic_Idle": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.1,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "18967_51554",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"Basic_Idle01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.17,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_smug_smile",
+					"id": "7823284_04353",
+					"mouth": "Mouth_whistle",
+					"mouth_weight": 1.0,
+					"name": "思考",
+					"start_sec": 2.37
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.08,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "7877826_79302",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.72,
+					"name": "眯眼笑",
+					"start_sec": 6.82
+				}
+			]
+		},
+		"Basic_Idle02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.34,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "783094_56164",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常微笑",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.78,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_think",
+					"id": "784361_25511",
+					"mouth": "Mouth_think",
+					"mouth_weight": 1.0,
+					"name": "思考",
+					"start_sec": 0.99
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.39,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "845124_69936",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.61,
+					"name": "想到开心的",
+					"start_sec": 3.43
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 8.13,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "924250_71987",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.69,
+					"name": "微微笑",
+					"start_sec": 6.04
+				}
+			]
+		},
+		"Basic_Idle03": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.61,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "1039219_25653",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.15,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_grin",
+					"id": "1069695_83778",
+					"mouth": "Mouth_yawn",
+					"mouth_weight": 1.0,
+					"name": "犯困",
+					"start_sec": 1.26
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.8,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "1272250_72554",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 4.8
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 8.33,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "1314550_55757",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 5.45
+				}
+			]
+		},
+		"Basic_Idle04": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.59,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "80344_13821",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "微笑",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.04,
+					"eye_weight": 0.6,
+					"eyes": "Eyes_surprise",
+					"id": "730827_08687",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.75,
+					"name": "看表",
+					"start_sec": 1.6
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.05,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "805614_42748",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.68,
+					"name": "微笑",
+					"start_sec": 4.05
+				}
+			]
+		},
+		"Basic_Idle05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.9,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "1552071_22247",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.55,
+					"eye_weight": 0.67,
+					"eyes": "Eyes_sleepy",
+					"id": "1809497_05618",
+					"mouth": "Mouth_yawn",
+					"mouth_weight": 0.74,
+					"name": "犯困",
+					"start_sec": 1.55
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.81,
+					"eye_weight": 0.76,
+					"eyes": "Eyes_grin",
+					"id": "1896476_59113",
+					"mouth": "Mouth_yawn",
+					"mouth_weight": 0.99,
+					"name": "打哈欠",
+					"start_sec": 2.2
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.89,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "1989830_06468",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 1.0,
+					"name": "眯眼笑",
+					"start_sec": 4.46
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.58,
+					"eye_weight": 0.38,
+					"eyes": "Eyes_grin",
+					"id": "2417901_84448",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.47,
+					"name": "小笑",
+					"start_sec": 5.54
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 8.33,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "3232117_81313",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 7.23
+				}
+			]
+		},
+		"youyou_Basic_Idle01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.64,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_serious",
+					"id": "7969636_93322",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.7,
+					"name": "细细打量",
+					"start_sec": 2.03
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.18,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "8052032_49330",
+					"mouth": "Mouth_min_smile",
+					"mouth_weight": 0.82,
+					"name": "眯眼笑",
+					"start_sec": 5.04
+				}
+			]
+		},
+		"youyou_Basic_Idle02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "32783_90583",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_Basic_Idle03": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "150899_43757",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_Basic_Idle04": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.73,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_think",
+					"id": "8696981_27819",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.73,
+					"name": "好奇",
+					"start_sec": 1.5
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.38,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "8744162_76162",
+					"mouth": "Mouth_min_smile",
+					"mouth_weight": 0.64,
+					"name": "眯眼笑",
+					"start_sec": 4.38
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.31,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "8778209_87381",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.51,
+					"name": "中笑",
+					"start_sec": 6.4
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.96,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "307892_78473",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 8.96
+				}
+			]
+		},
+		"youyou_Basic_Idle05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "585657_79348",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_Hello_Idle01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.16,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "4164003_27060",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0,
+					"blink_weight": 0.0,
+					"end_sec": 1.81,
+					"eye_weight": 0.76,
+					"eyes": "Eyes_laugh",
+					"id": "4191298_19974",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.75,
+					"name": "开心",
+					"start_sec": 0.81
+				},
+				{
+					"blink_mode": 0,
+					"blink_weight": 0.0,
+					"end_sec": 2.46,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "4251908_31347",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.53,
+					"name": "眯眼笑",
+					"start_sec": 1.46
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.69,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "4295255_90477",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 2.11
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.9,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "4541253_26306",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "眯眼笑",
+					"start_sec": 4.34
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.55,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "4580403_67969",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 5.55
+				}
+			]
+		},
+		"youyou_Hello_Idle02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.78,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "4700524_67896",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0,
+					"blink_weight": 0.0,
+					"end_sec": 4.52,
+					"eye_weight": 0.88,
+					"eyes": "Eyes_think",
+					"id": "4701782_62072",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 1.0,
+					"name": "思考",
+					"start_sec": 1.43
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.85507218734078,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "4929988_93139",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.48,
+					"name": "正常",
+					"start_sec": 3.87
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.58,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "4742500_19124",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "眯眼笑",
+					"start_sec": 4.17
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.44,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "5083879_29741",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 4.23
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 8.68,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "5110921_29809",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "眯眼笑",
+					"start_sec": 7.09
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.85507218734078,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "5166057_24122",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "正常",
+					"start_sec": 8.33
+				}
+			]
+		},
+		"youyou_Hello_Idle03": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "5298273_85242",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.44,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_smile",
+					"id": "5331038_38665",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.6,
+					"name": "发现什么",
+					"start_sec": 0.65
+				},
+				{
+					"blink_mode": 0,
+					"blink_weight": 0.0,
+					"end_sec": 3.3,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "5416955_34558",
+					"mouth": "Mouth_bite_wink",
+					"mouth_weight": 0.58,
+					"name": "眯眼笑",
+					"start_sec": 2.09
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.78,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "5484068_05108",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "开心",
+					"start_sec": 3.74
+				},
+				{
+					"blink_mode": 0,
+					"blink_weight": 0.0,
+					"end_sec": 8.14,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "5541056_56094",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.66,
+					"name": "眯眼笑",
+					"start_sec": 5.43
+				}
+			]
+		},
+		"youyou_Hello_Idle05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.69,
+					"eye_weight": 0.75,
+					"eyes": "Eyes_surprise",
+					"id": "5578433_25815",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.86,
+					"name": "惊慌",
+					"start_sec": 1.35
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.43,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "5670979_24147",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "眯眼笑",
+					"start_sec": 3.34
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.66,
+					"eye_weight": 0.74,
+					"eyes": "Eyes_laugh",
+					"id": "5752313_91296",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "开心",
+					"start_sec": 5.08
+				}
+			]
+		},
+		"youyou_Hello_Idle06": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.3,
+					"eye_weight": 0.98,
+					"eyes": "Eyes_surprise",
+					"id": "5976718_61166",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.82,
+					"name": "惊慌",
+					"start_sec": 1.61
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 8.69,
+					"eye_weight": 0.77,
+					"eyes": "Eyes_sad",
+					"id": "6033299_82452",
+					"mouth": "Mouth_sad",
+					"mouth_weight": 0.57,
+					"name": "难过",
+					"start_sec": 4.95
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 13.2173911384914,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_sad",
+					"id": "6077564_53315",
+					"mouth": "Mouth_sad",
+					"mouth_weight": 1.0,
+					"name": "难过2",
+					"start_sec": 8.34
+				}
+			]
+		},
+		"youyou_Hello_Idle07": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.72,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "6332224_20975",
+					"mouth": "Mouth_laugh",
+					"mouth_weight": 0.42,
+					"name": "开心",
+					"start_sec": 0.96
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.14,
+					"eye_weight": 0.82,
+					"eyes": "Eyes_laugh",
+					"id": "6396761_49456",
+					"mouth": "Mouth_laugh",
+					"mouth_weight": 0.41,
+					"name": "大笑",
+					"start_sec": 3.37
+				}
+			]
+		},
+		"youyou_Hello_Idle08": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.22,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "6494454_10850",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.53,
+					"name": "中笑",
+					"start_sec": 2.76
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.79,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "6644603_02271",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "眯眼笑",
+					"start_sec": 4.87
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 7.91,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "6747790_69713",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.57,
+					"name": "中笑",
+					"start_sec": 5.44
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 9.73,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "6807054_14055",
+					"mouth": "",
+					"mouth_weight": 0.81,
+					"name": "眯眼笑",
+					"start_sec": 7.67
+				}
+			]
+		},
+		"youyou_LookLeftRight": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 4.8,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_think",
+					"id": "look_lr_think",
+					"mouth": "Mouth_think",
+					"mouth_weight": 1.0,
+					"name": "张望",
+					"start_sec": 0.35
+				}
+			]
+		},
+		"youyou_Look_and_Wave": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.6,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_think",
+					"id": "look_wave_think",
+					"mouth": "Mouth_think",
+					"mouth_weight": 1.0,
+					"name": "张望",
+					"start_sec": 0.4
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 11.23,
+					"eye_weight": 0.98,
+					"eyes": "Eyes_squint_smile",
+					"id": "look_wave_smile",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.72,
+					"name": "眯眼笑",
+					"start_sec": 6.71
+				}
+			]
+		},
+		"youyou_Speak_Idle01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "6972449_81699",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_Speak_Idle02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "7089535_97692",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_Speak_Idle05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "43810_84475",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_Welcome_Wave": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.78,
+					"eye_weight": 0.98,
+					"eyes": "Eyes_squint_smile",
+					"id": "welcome_wave_smile",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.72,
+					"name": "眯眼笑",
+					"start_sec": 1.11
+				}
+			]
+		},
+		"youyou_claw crane01_01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.9,
+					"eye_weight": 0.66,
+					"eyes": "Eyes_mid_smile",
+					"id": "11214_74216",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.66,
+					"name": "欣喜",
+					"start_sec": 0.44
+				}
+			]
+		},
+		"youyou_claw crane01_02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.0,
+					"eye_weight": 0.66,
+					"eyes": "Eyes_mid_smile",
+					"id": "219816_43249",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.66,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw crane01_03": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.64,
+					"eye_weight": 0.66,
+					"eyes": "Eyes_mid_smile",
+					"id": "366749_41755",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.66,
+					"name": "中笑",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.63,
+					"eye_weight": 0.79,
+					"eyes": "Eyes_surprise",
+					"id": "417072_06385",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.8,
+					"name": "惊讶",
+					"start_sec": 0.29
+				}
+			]
+		},
+		"youyou_claw crane01_04": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 0.8,
+					"eyes": "Eyes_surprise",
+					"id": "525549_20064",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.8,
+					"name": "惊讶",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw crane01_05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.8,
+					"eye_weight": 0.8,
+					"eyes": "Eyes_surprise",
+					"id": "571195_23224",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.8,
+					"name": "惊讶",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane02_01": {
+			"expressions": []
+		},
+		"youyou_claw_crane02_02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.53,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_surprise",
+					"id": "124578_88593",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 1.0,
+					"name": "惊吓",
+					"start_sec": 0.3
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.83,
+					"eye_weight": 0.68,
+					"eyes": "Eyes_angry",
+					"id": "146825_07019",
+					"mouth": "Mouth_angry",
+					"mouth_weight": 0.54,
+					"name": "生气",
+					"start_sec": 1.18
+				}
+			]
+		},
+		"youyou_claw_crane02_03": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.59999990463257,
+					"eye_weight": 0.75,
+					"eyes": "Eyes_angry",
+					"id": "343425_75979",
+					"mouth": "Mouth_angry",
+					"mouth_weight": 0.77,
+					"name": "生气",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane02_04": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "41398_42273",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane02_05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "43866_79011",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane02_06": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.0,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "46277_43230",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane02_07": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.699999988079071,
+					"eye_weight": 1.0,
+					"eyes": "",
+					"id": "48268_86546",
+					"mouth": "",
+					"mouth_weight": 1.0,
+					"name": "新表情",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.09999990463257,
+					"eye_weight": 0.65,
+					"eyes": "Eyes_min_smile",
+					"id": "47041_76597",
+					"mouth": "Mouth_laugh",
+					"mouth_weight": 0.55,
+					"name": "欣喜",
+					"start_sec": 1.37
+				}
+			]
+		},
+		"youyou_claw_crane03_02": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.466666668653488,
+					"eye_weight": 0.65,
+					"eyes": "Eyes_min_smile",
+					"id": "279721_97546",
+					"mouth": "Mouth_laugh",
+					"mouth_weight": 0.56,
+					"name": "欣喜",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_02_post_scare": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.466666668653488,
+					"eye_weight": 0.61,
+					"eyes": "Eyes_angry",
+					"id": "crane03_02_post_scare_angry",
+					"mouth": "Mouth_angry",
+					"mouth_weight": 0.49,
+					"name": "生气",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_03": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 0.9,
+					"eye_weight": 0.63,
+					"eyes": "Eyes_surprise",
+					"id": "crane03_03_slot",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.74,
+					"name": "紧张",
+					"start_sec": 0.0
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 1.55,
+					"eye_weight": 0.61,
+					"eyes": "Eyes_angry",
+					"id": "507405_61294",
+					"mouth": "Mouth_angry",
+					"mouth_weight": 0.49,
+					"name": "生气",
+					"start_sec": 0.55
+				}
+			]
+		},
+		"youyou_claw_crane03_04": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 3.79999995231628,
+					"eye_weight": 0.6,
+					"eyes": "Eyes_angry",
+					"id": "crane03_04_slot",
+					"mouth": "Mouth_angry",
+					"mouth_weight": 0.49,
+					"name": "生气",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_05": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.33,
+					"eye_weight": 0.99,
+					"eyes": "Eyes_smile",
+					"id": "495962_53203",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.27,
+					"name": "微笑",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_06": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.33,
+					"eye_weight": 0.61,
+					"eyes": "Eyes_surprise",
+					"id": "crane03_06_slot",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.8,
+					"name": "紧张",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_07": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.03,
+					"eye_weight": 0.61,
+					"eyes": "Eyes_surprise",
+					"id": "crane03_07_slot",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.8,
+					"name": "惊讶",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_claw_crane03_08": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 2.03,
+					"eye_weight": 0.61,
+					"eyes": "Eyes_surprise",
+					"id": "crane03_08_slot",
+					"mouth": "Mouth_surprise",
+					"mouth_weight": 0.8,
+					"name": "紧张",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_coin01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.96,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_squint_smile",
+					"id": "7268768_34365",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.62,
+					"name": "眯眼笑",
+					"start_sec": 1.32
+				}
+			]
+		},
+		"youyou_fail01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.36,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_sad",
+					"id": "7405589_06312",
+					"mouth": "Mouth_smile",
+					"mouth_weight": 0.33,
+					"name": "安慰",
+					"start_sec": 0.0
+				}
+			]
+		},
+		"youyou_victory01": {
+			"expressions": [
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 5.65,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "7512202_20935",
+					"mouth": "Mouth_mid_smile",
+					"mouth_weight": 0.81,
+					"name": "欣喜",
+					"start_sec": 0.98
+				},
+				{
+					"blink_mode": 0.0,
+					"blink_weight": 0.0,
+					"end_sec": 6.9,
+					"eye_weight": 1.0,
+					"eyes": "Eyes_mid_smile",
+					"id": "7717652_08194",
+					"mouth": "",
+					"mouth_weight": 0.79,
+					"name": "微笑",
+					"start_sec": 5.3
+				}
+			]
+		}
+	},
+	"code_only_action_ids": [],
+	"default_slot_blend_sec": 0.35,
+	"description": "Squint mix baked timelines（含第二局 crane01_01–05）。",
+	"schema": "youyou_action_split_expression_timelines_v1"
+}

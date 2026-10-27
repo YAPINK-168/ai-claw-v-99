@@ -1,0 +1,369 @@
+{
+	"action_root": "res://NewMotion/动作",
+	"description": "NewMotion 序列帧动作 ↔ 配音。由 newmotion_action_voice_test / look_there_voice_cues_test 保存。",
+	"entries": {
+		"doudou_Attract_10": {
+			"action_speed": 0.85,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-哈哈哈哈.mp3",
+			"audio_speed": 1.13,
+			"audio_start_offset": 2.05,
+			"notes": ""
+		},
+		"doudou_Attract_11": {
+			"action_speed": 0.83,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-我这不是唱唱歌.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_Attract_12": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-战术指导.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_Attract_2": {
+			"action_speed": 0.83,
+			"audio_path": "res://配音/兜兜配音_剪辑/射弹弓失败.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "自动匹配同名配音"
+		},
+		"doudou_Attract_3": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/耍帅.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "新配音"
+		},
+		"doudou_Attract_4": {
+			"action_speed": 1.0,
+			"audio_path": "",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "新配音：拍苍蝇"
+		},
+		"doudou_Attract_5": {
+			"action_speed": 0.91,
+			"audio_path": "res://配音/新配音/兜兜跑来跑去音频.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_Attract_6": {
+			"action_speed": 0.88,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-就这水平.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_Attract_8": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/新配音/看起来很有经验的样子.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_Attract_9": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/抓不到唱歌.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "新配音：抓不到唱歌"
+		},
+		"doudou_come_1": {
+			"action_speed": 1.0,
+			"audio_cues": [
+				{
+					"audio": "res://配音/兜兜配音_剪辑/兜兜-看那边.mp3",
+					"start_at": 4.05
+				},
+				{
+					"audio": "res://配音/兜兜配音_剪辑/兜兜-哈哈哈哈.mp3",
+					"start_at": 5.83
+				}
+			],
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-看那边.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 4.05,
+			"notes": "看那边 + 哈哈哈哈哈 双点配音（look_there_voice_cues_test 可改）"
+		},
+		"doudou_fail": {
+			"action_speed": 1.34,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-掉咯掉咯.mp3",
+			"audio_speed": 0.94,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_guideGame": {
+			"action_speed": 0.95,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-我看算了吧.mp3",
+			"audio_speed": 1.07,
+			"audio_start_offset": 0.5,
+			"notes": ""
+		},
+		"doudou_run": {
+			"action_speed": 1.23,
+			"audio_path": "res://配音/新配音/兜兜跑出去.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"doudou_success": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-纯属运气.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.82,
+			"notes": ""
+		},
+		"youyou_Attract_1": {
+			"action_speed": 0.94,
+			"audio_path": "res://配音/招揽9-诶诶诶.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_Attract_2": {
+			"action_speed": 0.77,
+			"audio_path": "res://配音/招揽3-心跳加速.mp3",
+			"audio_speed": 0.99,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_Attract_3": {
+			"action_speed": 0.92,
+			"audio_path": "res://配音/新新配音/哇，手法不错呀.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_Attract_4": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/新配音/你今天的穿搭不错呀.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.32,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_Attract_5": {
+			"action_speed": 0.97,
+			"audio_path": "res://配音/招揽7-有意思的事.mp3",
+			"audio_speed": 0.96,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_Basecontrol_lean": {
+			"action_speed": 1.5,
+			"audio_path": "",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "开局倾身加快"
+		},
+		"youyou_Basecontrol_squat": {
+			"action_speed": 1.5,
+			"audio_path": "",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "操作下蹲加快"
+		},
+		"youyou_control2_1": {
+			"action_speed": 1.0,
+			"audio_cues": [
+				{
+					"audio": "res://配音/新新配音/兜兜你干嘛1 (2).mp3",
+					"start_at": 0.0
+				},
+				{
+					"audio": "res://配音/新新配音/兜兜你干嘛2.mp3",
+					"start_at": 1.98
+				}
+			],
+			"audio_path": "res://配音/新新配音/兜兜你干嘛1 (2).mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "兜兜你干嘛1（2） + 兜兜你干嘛2 双点配音（look_there_voice_cues_test 可改）"
+		},
+		"youyou_control2_2": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/柚柚与事件流程_剪辑/明明就是捣乱_[cut_1sec].mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 1.54,
+			"notes": "开头静止补 24 帧（+1s）；配音顺延同步"
+		},
+		"youyou_control2_3": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/柚柚与事件流程_剪辑/柚柚-兜兜.mp3",
+			"audio_speed": 1.07,
+			"audio_start_offset": 1.37,
+			"notes": ""
+		},
+		"youyou_control2_4": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/新配音/别理他，稳住心态_[cut_1sec].mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_fail": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/失败-擦肩而过.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_guideGame": {
+			"action_speed": 0.82,
+			"audio_path": "res://配音/失败引导小游戏1.mp3",
+			"audio_speed": 0.97,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_guideNext_1": {
+			"action_speed": 0.84,
+			"audio_path": "res://配音/成功引导小游戏-小可爱.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_guideNext_2": {
+			"action_speed": 1.06,
+			"audio_path": "res://配音/抓取失败引导抓娃娃1.mp3",
+			"audio_speed": 1.01,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_standby_1": {
+			"action_speed": 0.98,
+			"audio_path": "res://配音/招揽8-大胆上手抓.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_standby_10": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/新配音/兜兜跑出去.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_standby_2": {
+			"action_speed": 0.55,
+			"audio_path": "res://配音/轻待机5-吃什么.mp3",
+			"audio_speed": 1.03,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_standby_3": {
+			"action_speed": 0.84,
+			"audio_path": "res://配音/招揽6-摇杆左右扭.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_standby_4": {
+			"action_speed": 0.85,
+			"audio_path": "res://配音/轻待机3-数手指.mp3",
+			"audio_speed": 1.04,
+			"audio_start_offset": 0.19,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_standby_7": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/操作4-小家伙期待.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_standby_8": {
+			"action_speed": 1.11,
+			"audio_path": "res://配音/操作3-稳住节奏（修）.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.03,
+			"notes": ""
+		},
+		"youyou_success_1": {
+			"action_speed": 0.9,
+			"audio_path": "res://配音/新新配音/哇，手法不错呀.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_success_22": {
+			"action_speed": 0.88,
+			"audio_path": "res://配音/新新配音/有经验.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_welcome1": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/投币2-机会已激活（修）.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_welcome2": {
+			"action_speed": 1.22,
+			"audio_path": "res://配音/投币1-想好了？.mp3",
+			"audio_speed": 0.99,
+			"audio_start_offset": 0.33,
+			"notes": "初配，待听感验收"
+		},
+		"youyou_welcomeBack": {
+			"action_speed": 1.06,
+			"audio_path": "res://配音/柚柚与事件流程_剪辑/第二次抓娃欢迎.mp3",
+			"audio_speed": 0.99,
+			"audio_start_offset": 0.29,
+			"notes": ""
+		},
+		"youyou_welcomeBack2": {
+			"action_speed": 1.17,
+			"audio_path": "res://配音/柚柚与事件流程_剪辑/第二次抓娃欢迎2.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"youyou_获奖引导开局": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/获得抓取机会回去抓娃娃.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"抓不到": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-唱歌2.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"拍苍蝇": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/拍苍蝇.MP3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "自动匹配同名配音"
+		},
+		"漂亮！哼！": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/抓取成功1-漂亮.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": "初配，待听感验收"
+		},
+		"纯属运气（抓取成功）05": {
+			"action_speed": 1.0,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-纯属运气.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		},
+		"这算什么": {
+			"action_speed": 0.71,
+			"audio_path": "res://配音/兜兜配音_剪辑/兜兜-这算什么.mp3",
+			"audio_speed": 1.0,
+			"audio_start_offset": 0.0,
+			"notes": ""
+		}
+	}
+}

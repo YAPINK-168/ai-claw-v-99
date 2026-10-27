@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bballoonclaw1"]
+
+[ext_resource type="Script" path="res://街机小游戏/scripts/balloon_game.gd" id="1_balloon"]
+
+[node name="BalloonGame" type="Node2D"]
+visible = false
+z_index = 100
+script = ExtResource("1_balloon")

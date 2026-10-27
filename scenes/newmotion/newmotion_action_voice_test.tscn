@@ -1,0 +1,244 @@
+[gd_scene format=3 uid="uid://klwt5ns7ag5"]
+
+[ext_resource type="Script" uid="uid://pl5je2hlvgdw" path="res://Scripts/newmotion/newmotion_action_voice_test.gd" id="1_script"]
+[ext_resource type="Script" uid="uid://c28gxjiisrkdr" path="res://Scripts/newmotion/sprite_actor.gd" id="2_actor"]
+[ext_resource type="Texture2D" uid="uid://okrin2kb2ojy" path="res://NewMotion/test/room_background.jpg" id="3_bg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+content_margin_left = 14.0
+content_margin_top = 12.0
+content_margin_right = 14.0
+content_margin_bottom = 12.0
+bg_color = Color(1, 1, 1, 0.94)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+shadow_color = Color(0.4, 0.22, 0.5, 0.28)
+shadow_size = 8
+
+[node name="NewMotionActionVoiceTest" type="Node" unique_id=1996370982]
+script = ExtResource("1_script")
+
+[node name="BackgroundLayer" type="CanvasLayer" parent="." unique_id=404148483]
+layer = 0
+
+[node name="Background" type="TextureRect" parent="BackgroundLayer" unique_id=905276161]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="CharacterLayer" type="CanvasLayer" parent="." unique_id=1831438882]
+
+[node name="Character" type="AnimatedSprite2D" parent="CharacterLayer" unique_id=234205152]
+texture_filter = 2
+script = ExtResource("2_actor")
+
+[node name="UiLayer" type="CanvasLayer" parent="." unique_id=2000097971]
+layer = 10
+
+[node name="Panel" type="PanelContainer" parent="UiLayer" unique_id=141839954]
+offset_left = 18.0
+offset_top = 18.0
+offset_right = 640.0
+offset_bottom = 560.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Margin" type="MarginContainer" parent="UiLayer/Panel" unique_id=697443760]
+layout_mode = 2
+
+[node name="VBox" type="VBoxContainer" parent="UiLayer/Panel/Margin" unique_id=756929388]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TitleLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=2107113791]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+theme_override_font_sizes/font_size = 20
+text = "序列帧动作配音"
+
+[node name="CoverageLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=76572815]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.35, 0.28, 0.42, 1)
+text = "已配音 0 / 0"
+
+[node name="ActionRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1274581958]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ActionCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/ActionRow" unique_id=503363889]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "动作"
+vertical_alignment = 1
+
+[node name="ActionOption" type="OptionButton" parent="UiLayer/Panel/Margin/VBox/ActionRow" unique_id=211604595]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VoiceRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=2076109912]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="VoiceCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/VoiceRow" unique_id=2090572290]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "配音"
+vertical_alignment = 1
+
+[node name="VoiceOption" type="OptionButton" parent="UiLayer/Panel/Margin/VBox/VoiceRow" unique_id=961696329]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OffsetRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1471840766]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="OffsetCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/OffsetRow" unique_id=22688905]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "起点"
+vertical_alignment = 1
+
+[node name="OffsetSlider" type="HSlider" parent="UiLayer/Panel/Margin/VBox/OffsetRow" unique_id=830037939]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+max_value = 8.0
+step = 0.01
+
+[node name="OffsetValue" type="Label" parent="UiLayer/Panel/Margin/VBox/OffsetRow" unique_id=6716489]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "0.00s"
+horizontal_alignment = 2
+
+[node name="AudioSpeedRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1902285338]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="AudioSpeedCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/AudioSpeedRow" unique_id=965579448]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "语速"
+vertical_alignment = 1
+
+[node name="AudioSpeedSlider" type="HSlider" parent="UiLayer/Panel/Margin/VBox/AudioSpeedRow" unique_id=981684485]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+min_value = 0.5
+max_value = 1.5
+step = 0.01
+value = 1.0
+
+[node name="AudioSpeedValue" type="Label" parent="UiLayer/Panel/Margin/VBox/AudioSpeedRow" unique_id=470920134]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "1.00x"
+horizontal_alignment = 2
+
+[node name="ActionSpeedRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=2052334258]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ActionSpeedCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/ActionSpeedRow" unique_id=489063983]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "动作速"
+vertical_alignment = 1
+
+[node name="ActionSpeedSlider" type="HSlider" parent="UiLayer/Panel/Margin/VBox/ActionSpeedRow" unique_id=261396669]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+min_value = 0.5
+max_value = 1.5
+step = 0.01
+value = 1.0
+
+[node name="ActionSpeedValue" type="Label" parent="UiLayer/Panel/Margin/VBox/ActionSpeedRow" unique_id=782149195]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "1.00x"
+horizontal_alignment = 2
+
+[node name="NotesRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=345966320]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NotesCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/NotesRow" unique_id=2099725370]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "备注"
+vertical_alignment = 1
+
+[node name="NotesEdit" type="LineEdit" parent="UiLayer/Panel/Margin/VBox/NotesRow" unique_id=576562938]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "可选备注"
+
+[node name="ControlRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=631323305]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="PlayButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=1875681658]
+layout_mode = 2
+text = "播放"
+
+[node name="StopButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=2072457023]
+layout_mode = 2
+text = "停止"
+
+[node name="SuggestButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=385479999]
+layout_mode = 2
+text = "智能匹配"
+
+[node name="RefreshButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow"]
+layout_mode = 2
+text = "刷新库"
+
+[node name="SaveButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=840907229]
+layout_mode = 2
+text = "保存"
+
+[node name="LoopCheck" type="CheckBox" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=2020872683]
+layout_mode = 2
+text = "循环"
+
+[node name="StatusLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=1435049265]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.29, 0.16, 0.38, 1)
+text = "准备中…"
+autowrap_mode = 3
+
+[node name="HelpLabel" type="Label" parent="UiLayer" unique_id=1469693654]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -40.0
+offset_right = 900.0
+offset_bottom = -12.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.75)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+text = "Space 播放 · Esc 停止 · 刷新库重扫配音/动作 · 已配有 ✓ · 保存写入 config/newmotion_action_voice_map.json"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1669010201]

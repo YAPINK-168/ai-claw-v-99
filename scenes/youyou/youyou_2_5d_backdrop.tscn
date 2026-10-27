@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ck885cuqha7up"]
+
+[ext_resource type="Script" path="res://Scripts/youyou_2_5d_backdrop.gd" id="1_backdrop"]
+
+[node name="Youyou2_5dBackdrop" type="Node3D"]
+visible = false
+script = ExtResource("1_backdrop")
+
+[node name="SkyCity_BackPlate" type="MeshInstance3D" parent="."]
+
+[node name="Flowers_Foreground" type="MeshInstance3D" parent="."]

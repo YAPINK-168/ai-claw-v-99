@@ -1,0 +1,123 @@
+[gd_scene format=3 uid="uid://tga0ycuclxvy"]
+
+[ext_resource type="Script" path="res://Scripts/youyou_new_actions_preview_test.gd" id="1_preview"]
+[ext_resource type="Script" uid="uid://d0spk7us8tvd7" path="res://Scripts/youyou_observe_camera.gd" id="2_observe"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributes_preview"]
+exposure_multiplier = 0.72
+
+[sub_resource type="Environment" id="Environment_preview"]
+background_mode = 1
+background_color = Color(0.4, 0.42, 0.45, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.62, 0.63, 0.65, 1)
+ambient_light_energy = 0.32
+
+[node name="YouyouNewActionsPreviewTest" type="Node3D" unique_id=432935796]
+script = ExtResource("1_preview")
+
+[node name="ObservePivot" type="Node3D" parent="." unique_id=1302225234]
+script = ExtResource("2_observe")
+
+[node name="Camera3D" type="Camera3D" parent="ObservePivot" unique_id=1324042740]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 1.35, 2.35)
+attributes = SubResource("CameraAttributes_preview")
+current = true
+fov = 42.0
+
+[node name="KeyLight" type="DirectionalLight3D" parent="." unique_id=575359366]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 1.6, 1.2)
+light_energy = 0.78
+shadow_enabled = true
+
+[node name="FillLight" type="DirectionalLight3D" parent="." unique_id=1012827276]
+transform = Transform3D(0.939693, 0.241845, -0.241845, 0, 0.707107, 0.707107, 0.34202, -0.664463, 0.664463, -1, 1.2, 0.4)
+light_color = Color(0.78, 0.82, 0.9, 1)
+light_energy = 0.18
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=817701748]
+environment = SubResource("Environment_preview")
+
+[node name="UiLayer" type="CanvasLayer" parent="." unique_id=408777974]
+
+[node name="Panel" type="PanelContainer" parent="UiLayer" unique_id=481538689]
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 520.0
+offset_bottom = 360.0
+
+[node name="Margin" type="MarginContainer" parent="UiLayer/Panel" unique_id=796756696]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 10
+
+[node name="VBox" type="VBoxContainer" parent="UiLayer/Panel/Margin" unique_id=174053862]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TitleLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=37658372]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "修改后的动作预览（包内骨架 · 仅身体动作）"
+
+[node name="FilterRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1663111876]
+layout_mode = 2
+
+[node name="FilterCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/FilterRow" unique_id=760539057]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+text = "分类"
+
+[node name="FilterOption" type="OptionButton" parent="UiLayer/Panel/Margin/VBox/FilterRow" unique_id=1055548190]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ActionRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1526392515]
+layout_mode = 2
+
+[node name="ActionCaption" type="Label" parent="UiLayer/Panel/Margin/VBox/ActionRow" unique_id=402873638]
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+text = "动作"
+
+[node name="ActionOption" type="OptionButton" parent="UiLayer/Panel/Margin/VBox/ActionRow" unique_id=1688150794]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ControlRow" type="HBoxContainer" parent="UiLayer/Panel/Margin/VBox" unique_id=1952311538]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PlayButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=421719669]
+layout_mode = 2
+text = "播放 (Space)"
+
+[node name="StopButton" type="Button" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=205331244]
+layout_mode = 2
+text = "停止 (Esc)"
+
+[node name="LoopCheck" type="CheckBox" parent="UiLayer/Panel/Margin/VBox/ControlRow" unique_id=2131323244]
+layout_mode = 2
+text = "循环"
+
+[node name="StatusLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=443820209]
+layout_mode = 2
+text = "正在加载…"
+autowrap_mode = 3
+
+[node name="OriginLabel" type="Label" parent="UiLayer/Panel/Margin/VBox" unique_id=1139429532]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85, 0.88, 0.92, 1)
+autowrap_mode = 3
+
+[node name="HelpLabel" type="Label" parent="UiLayer" unique_id=1621408761]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -40.0
+offset_right = 900.0
+offset_bottom = -12.0
+text = "中键拖动旋转 · 滚轮缩放 · Shift+中键平移 · R 复位镜头"

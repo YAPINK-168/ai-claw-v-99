@@ -1,0 +1,307 @@
+{
+	"schema": "youyou_voice_emotion_schedules_v1",
+	"description": "多段表情：time_base=action 为动作片时间轴秒；voice 为配音开口后秒（Speak 类可设 voice_anchor_action_time 对齐 catalog 偏移）",
+	"by_action_id": {
+		"youyou_Basic_Idle01": {
+			"emotion_id": "think",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 2.0, "emotion_id": "think"},
+				{"time": 3.35, "emotion_id": "grin"},
+				{"time": 4.8, "emotion_id": "mid_smile"}
+			]
+		},
+		"youyou_Basic_Idle02": {
+			"emotion_id": "think",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 2.0, "emotion_id": "think"},
+				{"time": 3.5, "emotion_id": "min_smile"},
+				{"time": 5.0, "emotion_id": "puff"}
+			]
+		},
+		"youyou_Basic_Idle04": {
+			"emotion_id": "grin",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 2.0, "emotion_id": "think"},
+				{"time": 2.95, "emotion_id": "grin"},
+				{"time": 4.2, "emotion_id": "laugh"}
+			]
+		},
+		"youyou_Basic_Idle05": {
+			"emotion_id": "smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 2.0, "emotion_id": "serious"},
+				{"time": 3.2, "emotion_id": "mid_smile"},
+				{"time": 4.6, "emotion_id": "smug_smile"}
+			]
+		},
+		"youyou_Hello_Idle01": {
+			"emotion_id": "min_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 0.85, "emotion_id": "min_smile"},
+				{"time": 1.65, "emotion_id": "surprise"},
+				{"time": 2.85, "emotion_id": "laugh"}
+			]
+		},
+		"youyou_Hello_Idle02": {
+			"emotion_id": "mid_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 3.5, "emotion_id": "mid_smile"},
+				{"time": 4.45, "emotion_id": "grin"},
+				{"time": 5.8, "emotion_id": "smug_smile"}
+			]
+		},
+		"youyou_Hello_Idle03": {
+			"emotion_id": "laugh",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 0.9, "emotion_id": "laugh"},
+				{"time": 2.1, "emotion_id": "grin"},
+				{"time": 3.6, "emotion_id": "mid_smile"}
+			]
+		},
+		"youyou_Hello_Idle05": {
+			"emotion_id": "smug_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 0.85, "emotion_id": "surprise"},
+				{"time": 1.75, "emotion_id": "smug_smile"},
+				{"time": 2.9, "emotion_id": "grin"}
+			]
+		},
+		"youyou_Hello_Idle06": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 1.05, "emotion_id": "surprise"},
+				{"time": 1.85, "emotion_id": "puff"},
+				{"time": 2.35, "emotion_id": "sad"}
+			]
+		},
+		"youyou_Hello_Idle07": {
+			"emotion_id": "laugh",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 0.9, "emotion_id": "mid_smile"},
+				{"time": 1.85, "emotion_id": "laugh"},
+				{"time": 3.1, "emotion_id": "smug_smile"}
+			]
+		},
+		"youyou_Hello_Idle08": {
+			"emotion_id": "mid_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 2.2, "emotion_id": "mid_smile"},
+				{"time": 3.35, "emotion_id": "grin"},
+				{"time": 4.6, "emotion_id": "whistle"}
+			]
+		},
+		"youyou_coin01": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 1.55, "emotion_id": "surprise"},
+				{"time": 2.25, "emotion_id": "laugh"},
+				{"time": 3.45, "emotion_id": "smug_smile"}
+			]
+		},
+		"youyou_fail01": {
+			"emotion_id": "min_smile",
+			"emotion_blend_duration": 0.55,
+			"time_base": "action",
+			"schedule": [
+				{"time": 1.45, "emotion_id": "min_smile"},
+				{"time": 2.35, "emotion_id": "sad"},
+				{"time": 3.75, "emotion_id": "mid_smile"}
+			]
+		},
+		"youyou_victory01": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "action",
+			"schedule": [
+				{"time": 1.55, "emotion_id": "surprise"},
+				{"time": 2.15, "emotion_id": "laugh"},
+				{"time": 3.05, "emotion_id": "laugh", "blend_duration": 0.35}
+			]
+		},
+		"youyou_claw crane01_01": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.35,
+			"time_base": "action",
+			"schedule": [
+				{"time": 1.5, "emotion_id": "surprise"},
+				{"time": 1.95, "emotion_id": "laugh"},
+				{"time": 2.55, "emotion_id": "grin"}
+			]
+		}
+	},
+	"by_filename": {
+		"操作2-这个角度.mp3": {
+			"emotion_id": "think",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "think"},
+				{"time": 0.75, "emotion_id": "grin"},
+				{"time": 1.85, "emotion_id": "mid_smile"}
+			]
+		},
+		"操作3-稳住节奏（修）.mp3": {
+			"emotion_id": "serious",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "serious"},
+				{"time": 0.7, "emotion_id": "mid_smile"},
+				{"time": 1.65, "emotion_id": "smug_smile"}
+			]
+		},
+		"操作1-胸有成竹.mp3": {
+			"emotion_id": "min_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "min_smile"},
+				{"time": 0.55, "emotion_id": "grin"},
+				{"time": 1.35, "emotion_id": "smug_smile"},
+				{"time": 2.2, "emotion_id": "mid_smile"}
+			]
+		},
+		"操作4-小家伙期待.mp3": {
+			"emotion_id": "laugh",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "laugh"},
+				{"time": 0.85, "emotion_id": "grin"},
+				{"time": 1.75, "emotion_id": "surprise"},
+				{"time": 2.85, "emotion_id": "mid_smile"}
+			]
+		},
+		"操作5-很有经验的样子.mp3": {
+			"emotion_id": "think",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "think"},
+				{"time": 0.8, "emotion_id": "min_smile"},
+				{"time": 1.55, "emotion_id": "smug_smile"},
+				{"time": 2.45, "emotion_id": "grin"}
+			]
+		},
+		"操作6-手法不错呀.mp3": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "surprise"},
+				{"time": 0.65, "emotion_id": "laugh"},
+				{"time": 1.45, "emotion_id": "smug_smile"}
+			]
+		},
+		"抓取1-来了来了.mp3": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.35,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "surprise"},
+				{"time": 0.42, "emotion_id": "laugh"},
+				{"time": 1.05, "emotion_id": "grin"}
+			]
+		},
+		"抓取2-好紧张.mp3": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"schedule": [
+				{"time": 0.0, "emotion_id": "surprise"},
+				{"time": 0.48, "emotion_id": "puff"},
+				{"time": 1.15, "emotion_id": "min_smile"}
+			]
+		},
+		"投币2-机会已激活（修）.mp3": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"voice_anchor_action_time": 1.88,
+			"schedule": [
+				{"time": 0.0, "emotion_id": "surprise"},
+				{"time": 0.55, "emotion_id": "laugh"},
+				{"time": 1.35, "emotion_id": "smug_smile"}
+			]
+		},
+		"失败-擦肩而过.mp3": {
+			"emotion_id": "min_smile",
+			"emotion_blend_duration": 0.55,
+			"time_base": "voice",
+			"voice_anchor_action_time": 1.67,
+			"schedule": [
+				{"time": 0.0, "emotion_id": "min_smile"},
+				{"time": 0.65, "emotion_id": "sad"},
+				{"time": 1.85, "emotion_id": "mid_smile"}
+			]
+		},
+		"抓取成功2-你太厉害啦！（修）.mp3": {
+			"emotion_id": "surprise",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"voice_anchor_action_time": 1.87,
+			"schedule": [
+				{"time": 0.0, "emotion_id": "surprise"},
+				{"time": 0.45, "emotion_id": "laugh"},
+				{"time": 1.15, "emotion_id": "laugh", "blend_duration": 0.35}
+			]
+		},
+		"失败引导小游戏2.mp3": {
+			"emotion_id": "min_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"voice_anchor_action_time": 1.67,
+			"schedule": [
+				{"time": 0.0, "emotion_id": "min_smile"},
+				{"time": 0.75, "emotion_id": "think"},
+				{"time": 1.85, "emotion_id": "grin"}
+			]
+		},
+		"成功引导小游戏1-手感正好.mp3": {
+			"emotion_id": "mid_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"voice_anchor_action_time": 1.67,
+			"schedule": [
+				{"time": 0.0, "emotion_id": "mid_smile"},
+				{"time": 0.85, "emotion_id": "laugh"},
+				{"time": 1.95, "emotion_id": "grin"}
+			]
+		},
+		"抓取失败引导抓娃娃1.mp3": {
+			"emotion_id": "min_smile",
+			"emotion_blend_duration": 0.4,
+			"time_base": "voice",
+			"voice_anchor_action_time": 1.67,
+			"schedule": [
+				{"time": 0.0, "emotion_id": "min_smile"},
+				{"time": 0.95, "emotion_id": "think"},
+				{"time": 2.05, "emotion_id": "grin"}
+			]
+		}
+	}
+}

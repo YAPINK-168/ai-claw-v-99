@@ -1,0 +1,131 @@
+[gd_scene format=3 uid="uid://d0ahvqokra0t3"]
+
+[ext_resource type="Script" uid="uid://l2bae5r18gfd" path="res://Scripts/youyou_preview_doudou_sandbox.gd" id="1_preview"]
+[ext_resource type="Script" uid="uid://d0spk7us8tvd7" path="res://Scripts/youyou_observe_camera.gd" id="2_observe"]
+[ext_resource type="PackedScene" path="res://scenes/youyou/youyou_lobby_set.tscn" id="3_lobby"]
+[ext_resource type="PackedScene" uid="uid://ck885cuqha7up" path="res://scenes/youyou/youyou_2_5d_backdrop.tscn" id="4_backdrop"]
+[ext_resource type="Script" uid="uid://du183cxvkr1os" path="res://Scripts/doudou/doudou_sandbox_layout.gd" id="5_layout"]
+[ext_resource type="PackedScene" uid="uid://cc2iwat2phju5" path="res://柚柚.glb" id="6_youyou_glb"]
+[ext_resource type="PackedScene" uid="uid://ci84dfxt72y6v" path="res://doudou2/兜兜.glb" id="7_doudou_glb"]
+[ext_resource type="PackedScene" uid="uid://b8youyouarcadehud" path="res://scenes/ui/youyou_arcade_hud.tscn" id="8_hud"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributes_preview"]
+exposure_multiplier = 0.76
+
+[sub_resource type="Environment" id="Environment_preview"]
+background_mode = 1
+background_color = Color(0.62, 0.8, 0.95, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.92, 0.94, 0.98, 1)
+ambient_light_energy = 0.32
+tonemap_mode = 2
+tonemap_exposure = 0.88
+ssr_enabled = true
+ssr_max_steps = 24
+ssr_fade_in = 0.08
+ssr_fade_out = 0.35
+ssao_enabled = true
+ssao_radius = 0.16
+ssao_intensity = 0.22
+ssao_power = 1.2
+glow_intensity = 0.08
+glow_strength = 0.28
+glow_bloom = 0.01
+
+[node name="YouyouPreviewDoudouSandbox" type="Node3D" unique_id=1972780436]
+script = ExtResource("1_preview")
+
+[node name="LobbySet" parent="." unique_id=1889566271 instance=ExtResource("3_lobby")]
+
+[node name="Youyou2_5dBackdrop" parent="." unique_id=1600502019 instance=ExtResource("4_backdrop")]
+
+[node name="EditorLayout" type="Node3D" parent="." unique_id=1251585393]
+script = ExtResource("5_layout")
+
+[node name="YouyouSlot" type="Marker3D" parent="EditorLayout" unique_id=1899006194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.026926845, 0, 0.35)
+gizmo_extents = 0.0
+
+[node name="YouyouEditorPreview" parent="EditorLayout/YouyouSlot" unique_id=1832567723 instance=ExtResource("6_youyou_glb")]
+
+[node name="DoudouSlot" type="Marker3D" parent="EditorLayout" unique_id=1945980238]
+transform = Transform3D(0.82, 0, 0, 0, 0.82, 0, 0, 0, 0.82, 1.6417147, 0, -0.14583421)
+gizmo_extents = 0.0
+
+[node name="DoudouEditorPreview" parent="EditorLayout/DoudouSlot" unique_id=1953019892 instance=ExtResource("7_doudou_glb")]
+
+[node name="ObservePivot" type="Node3D" parent="." unique_id=1121777624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.755, 0)
+script = ExtResource("2_observe")
+
+[node name="Camera3D" type="Camera3D" parent="ObservePivot" unique_id=285077744]
+transform = Transform3D(1, 0, 0, 0, 0.9999016, 0.014031157, 0, -0.014031157, 0.9999016, 0, -0.0732497, 3)
+attributes = SubResource("CameraAttributes_preview")
+projection = 1
+current = true
+fov = 50.0
+size = 1.06
+
+[node name="FaceFill" type="OmniLight3D" parent="ObservePivot/Camera3D" unique_id=1529119941]
+light_color = Color(1, 0.98, 0.96, 1)
+light_energy = 0.14
+omni_range = 10.0
+
+[node name="KeyLight" type="DirectionalLight3D" parent="." unique_id=2042893038]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0.8, 2.2, 2.4)
+light_color = Color(1, 0.98, 0.94, 1)
+light_energy = 0.58
+light_angular_distance = 2.8
+shadow_enabled = true
+shadow_bias = 0.05
+shadow_normal_bias = 0.8
+shadow_opacity = 0.3
+shadow_blur = 3.0
+directional_shadow_blend_splits = true
+directional_shadow_max_distance = 20.0
+
+[node name="FillLight" type="DirectionalLight3D" parent="." unique_id=1878611446]
+transform = Transform3D(-0.939693, 0, 0.34202, 0, 0.939693, 0.34202, -0.34202, 0.34202, -0.882948, -0.6, 1.6, 2)
+light_color = Color(0.86, 0.92, 1, 1)
+light_energy = 0.24
+
+[node name="HairRim" type="DirectionalLight3D" parent="." unique_id=585432013]
+transform = Transform3D(1, 0, 0, 0, 0.939693, -0.34202, 0, 0.34202, 0.939693, 0, 2, -1.8)
+light_color = Color(0.98, 0.95, 1, 1)
+light_energy = 0.05
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=570672765]
+environment = SubResource("Environment_preview")
+
+[node name="StatusLayer" type="CanvasLayer" parent="." unique_id=523224703]
+
+[node name="StatusLabel" type="Label" parent="StatusLayer" unique_id=2069264854]
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 1240.0
+offset_bottom = 96.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+text = "正在加载柚柚"
+autowrap_mode = 3
+
+[node name="ObserveHelp" type="Label" parent="StatusLayer" unique_id=1664929962]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -44.0
+offset_right = 436.0
+offset_bottom = -12.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+text = "【兜兜沙盒】Ctrl+T 投币 → 兜兜右后方播 002 入场 · 中键旋转 · 滚轮缩放 · R 重置镜头"
+autowrap_mode = 3
+
+[node name="LeftHud" parent="." instance=ExtResource("8_hud")]
+
+[editable path="LeftHud"]

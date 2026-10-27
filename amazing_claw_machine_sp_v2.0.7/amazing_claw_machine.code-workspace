@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.aardio": "csharp",
+			"*.h": "c",
+			"*.cjson": "jsonc",
+			"*.wxss": "css",
+			"*.wxs": "javascript",
+			"limits": "c",
+			"memory": "c",
+			"set": "c",
+			"string": "c"
+		},
+		"files.encoding": "gbk",
+		"files.autoGuessEncoding": true
+	}
+}

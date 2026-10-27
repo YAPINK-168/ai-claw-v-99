@@ -1,0 +1,97 @@
+{
+	"schema": "newmotion_claw_sprite_map_v1",
+	"description": "娃娃机业务语义 → 序列帧文件夹（填坑用，可随时改 clip）",
+	"action_root": "res://NewMotion/动作",
+	"fallback_idle": "youyou_Idlebreath",
+	"transition_clip": "youyou_Idlebreath",
+	"random_when_idle": true,
+	"random_include": [
+		"youyou_standby_5",
+		"youyou_Attract_2",
+		"youyou_Attract_1",
+		"youyou_standby_1",
+		"youyou_standby_3",
+		"youyou_Attract_5",
+		"youyou_standby_2"
+	],
+	"random_exclude": [
+		"youyou_standby_4"
+	],
+	"mappings": {
+		"idle_base": {
+			"clip": "youyou_Idlebreath",
+			"loop": true,
+			"notes": "无人时组合循环：随机待机 + 呼吸待机 + 随机招揽"
+		},
+		"attract": {
+			"clip": "youyou_standby_5",
+			"loop": false,
+			"notes": "有人走近招揽"
+		},
+		"opening": {
+			"clip": "youyou_welcome2",
+			"loop": false,
+			"notes": "首局投币欢迎；播完发 welcome_finished"
+		},
+		"opening_return": {
+			"clip": "youyou_welcomeBack",
+			"loop": false,
+			"notes": "第二次抓娃娃欢迎；有余币 Ctrl+Z 续局时播，播完再进入操作"
+		},
+		"replay_wait": {
+			"clip": "youyou_Idlebreath",
+			"loop": true,
+			"notes": "引导下一局结束后的 10 秒呼吸待机，不进随机池"
+		},
+		"paid_observe": {
+			"clip": "youyou_Basecontrol_lean",
+			"loop": false,
+			"notes": "开局后播一次倾身，接倾身待机。左右看在待机上按住 A/D"
+		},
+		"operating": {
+			"clip": "youyou_Basecontrol_keeplean",
+			"loop": true,
+			"notes": "倾身待机循环。按住 A/D 正放左右看，松开从当前帧倒放回这里"
+		},
+		"grabbing": {
+			"clip": "youyou_Basecontrol_squat",
+			"loop": false,
+			"notes": "下蹲后循环蹲着待机，按往上抓再播站起。蹲着留在库里不播"
+		},
+		"result_success": {
+			"clip": "youyou_success_1",
+			"loop": false,
+			"notes": "抓成功反馈"
+		},
+		"result_fail": {
+			"clip": "youyou_fail",
+			"loop": false,
+			"notes": "抓失败反馈"
+		},
+		"success_continue_guide": {
+			"clip": "youyou_guideNext_1",
+			"loop": false,
+			"notes": "成功后引导下一次抓娃娃"
+		},
+		"fail_continue_guide": {
+			"clip": "youyou_guideNext_2",
+			"loop": false,
+			"notes": "拒绝小游戏后引导再抓一次"
+		},
+		"invite_minigame": {
+			"clip": "youyou_guideGame",
+			"loop": false,
+			"notes": "失败后邀请小游戏"
+		},
+		"invite_retry": {
+			"clip": "youyou_standby_9",
+			"loop": false,
+			"notes": "再给一次抓（暂代）"
+		},
+		"round_over": {
+			"clip": "youyou_Idlebreath",
+			"loop": false,
+			"notes": "本轮收尾"
+		}
+	}
+}
